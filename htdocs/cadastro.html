@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="cod.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <title>TriviaCraft</title> 
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">  
+                <h1>TriviaCraft</h1>   
+                <img src="assets/grass_block.gif" width="75" height="75">   
+                <nav>
+                    <ul>
+                        <li><a href="menu.html">Inicio</a></li>
+                        <li><a href="imagens.html">Imagens</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                        <li><a href="listagem.php">Listagem de Dados</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>      
+
+        <div>
+            <fieldset>
+                <legend>FORMULÁRIO</legend>
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" placeholder="NOME"/><br>
+
+                <label for="senha">Sua Senha</label>
+                <input type="text" id="senha" placeholder="SENHA"/><br>
+
+                <label for="idade">Sua Idade</label>
+                <input type="text" id="idade" placeholder="IDADE"/><br>
+
+                <label for="cpf">Seu CPF</label>
+                <input type="text" id="cpf" placeholder="CPF"/><br>
+
+                <label for="telefone">Seu Telefone</label>
+                <input type="text" id="telefone" placeholder="TELEFONE"/><br>
+
+                <label for="cartao">Número do Cartão</label>
+                <input type="text" id="cartao" placeholder="NUMERO DO CARTÃO"/><br>
+
+                <button onclick="gravar()">SALVAR</button>
+            </fieldset>
+        </div>
+    </body>
+</html>
